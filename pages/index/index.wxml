@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="saoyisao" bindtap="getSaoYiSao">扫一扫</view>
+  <view><text class='pull-left'>二维码扫描结果：</text><text>{{ saoYiSaoInfo.errMsg }}</text></view>
+  <view><text class='pull-left'>二维码链接：</text><text style='max-width:100%;'>{{ saoYiSaoInfo.result }}</text></view>
+  <view><text class='pull-left'>二维码类型：</text><text>{{ saoYiSaoInfo.scanType }}</text></view>
+  <view><text class='pull-left'>二维码字符集：</text><text>{{ saoYiSaoInfo.charSet }}</text></view>
+</view>
